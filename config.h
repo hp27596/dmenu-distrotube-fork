@@ -59,7 +59,7 @@ static char *fonts[] =
 static const char *fonts[] = 
 #endif // XRESOURCES_PATCH
 {
-	"Ubuntu Mono:size=16"
+	"Source Code Pro:size=12"
 };
 #endif // PANGO_PATCH
 
