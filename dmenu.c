@@ -1024,10 +1024,14 @@ keypress(XKeyEvent *ev)
 			goto draw;
 		case XK_g: ksym = XK_Home;  break;
 		case XK_G: ksym = XK_End;   break;
-		case XK_h: ksym = XK_Up;    break;
-		case XK_j: ksym = XK_Next;  break;
-		case XK_k: ksym = XK_Prior; break;
-		case XK_l: ksym = XK_Down;  break;
+		/* case XK_h: ksym = XK_Up;    break; */
+		/* case XK_j: ksym = XK_Next;  break; */
+		/* case XK_k: ksym = XK_Prior; break; */
+		/* case XK_l: ksym = XK_Down;  break; */
+		case XK_k: ksym = XK_Up;    break; //my window manager style keybind
+		case XK_l: ksym = XK_Next;  break;
+		case XK_h: ksym = XK_Prior; break;
+		case XK_j: ksym = XK_Down;  break;
 		#if NAVHISTORY_PATCH
 		case XK_p:
 			navhistory(-1);
