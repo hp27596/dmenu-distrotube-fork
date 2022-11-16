@@ -59,7 +59,7 @@ static char *fonts[] =
 static const char *fonts[] = 
 #endif // XRESOURCES_PATCH
 {
-	"Source Code Pro:size=12"
+	"Source Code Pro:size=16"
 };
 #endif // PANGO_PATCH
 
