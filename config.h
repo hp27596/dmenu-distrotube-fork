@@ -59,7 +59,7 @@ static char *fonts[] =
 static const char *fonts[] = 
 #endif // XRESOURCES_PATCH
 {
-	"Source Code Pro:size=16"
+	"Source Code Pro:size=12"
 };
 #endif // PANGO_PATCH
 
@@ -107,7 +107,7 @@ static unsigned int lines      = 0;
  * 8. solarized-light.h
  * 9. tomorrow-night.h
  */
-#include "colors/monokai-pro.h"
+#include "colors/mocha.h"
 
 #if GRID_PATCH
 /* -g option; if nonzero, dmenu uses a grid comprised of columns and lines */
